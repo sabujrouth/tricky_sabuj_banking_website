@@ -11,10 +11,15 @@ module.exports = {
         "color-gray": "#333",
         "color-white": "#fff",
         "color-blob": "#A427DF",
-
-
       }
     },
+    container: {
+      center: true,
+      padding: {
+          DEFAULT: "20px" ,
+          md: "50px"
+      }
+    }
   },
   plugins: [],
 }
