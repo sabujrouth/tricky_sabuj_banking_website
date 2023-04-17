@@ -564,6 +564,10 @@ video {
   width: 5rem;
 }
 
+.cursor-pointer {
+  cursor: pointer;
+}
+
 .items-center {
   align-items: center;
 }
@@ -617,6 +621,11 @@ video {
 
 .ease-in {
   transition-timing-function: cubic-bezier(0.4, 0, 1, 1);
+}
+
+.hover\:text-color-blob:hover {
+  --tw-text-opacity: 1;
+  color: rgb(164 39 223 / var(--tw-text-opacity));
 }
 
 .hover\:text-color-secondary:hover {
