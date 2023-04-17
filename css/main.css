@@ -582,14 +582,33 @@ video {
   margin-left: calc(1.5rem * calc(1 - var(--tw-space-x-reverse)));
 }
 
+.rounded-md {
+  border-radius: 0.375rem;
+}
+
 .bg-color-primary {
   --tw-bg-opacity: 1;
   background-color: rgb(17 37 65 / var(--tw-bg-opacity));
 }
 
+.bg-color-secondary {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 125 59 / var(--tw-bg-opacity));
+}
+
 .py-5 {
   padding-top: 1.25rem;
   padding-bottom: 1.25rem;
+}
+
+.px-9 {
+  padding-left: 2.25rem;
+  padding-right: 2.25rem;
+}
+
+.py-3 {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
 }
 
 .text-3xl {
@@ -599,6 +618,10 @@ video {
 
 .font-bold {
   font-weight: 700;
+}
+
+.capitalize {
+  text-transform: capitalize;
 }
 
 .tracking-wider {
@@ -631,4 +654,12 @@ video {
 .hover\:text-color-secondary:hover {
   --tw-text-opacity: 1;
   color: rgb(255 125 59 / var(--tw-text-opacity));
+}
+
+.hover\:opacity-0:hover {
+  opacity: 0;
+}
+
+.hover\:opacity-80:hover {
+  opacity: 0.8;
 }
