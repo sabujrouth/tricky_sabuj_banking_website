@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Banking Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="css/main.css">
 </head>
 
@@ -18,7 +19,7 @@
                 </a>
             </div>
             <div>
-                <ul class="flex items-center space-x-6">
+                <ul class="hidden lg:flex items-center space-x-6">
                     <li class="hover:text-color-secondary ease-in duration-200 cursor-pointer"><a href="#home"></a>Home</li>
                     <li class="hover:text-color-secondary ease-in duration-200 cursor-pointer"><a href="#features"></a>Features</li>
                     <li class="hover:text-color-secondary ease-in duration-200 cursor-pointer"><a href="#testimonial"></a>Testimonial</li>
@@ -28,6 +29,10 @@
 
                     <li><button class="bg-color-secondary px-9 py-3 rounded-md capitalize font-bold hover:opacity-80 ease-in duration-200">free trial</button></li>
                 </ul>
+            </div>
+            <!-- Mobile screen -->
+            <div id="hamburger" class="lg:hidden cursor-pointer">
+                <i class="fa-solid fa-bars"></i>
             </div>
         </nav>
     </header>
