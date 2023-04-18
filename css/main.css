@@ -556,12 +556,32 @@ video {
   }
 }
 
+.absolute {
+  position: absolute;
+}
+
+.inset-0 {
+  inset: 0px;
+}
+
 .flex {
   display: flex;
 }
 
+.grid {
+  display: grid;
+}
+
 .hidden {
   display: none;
+}
+
+.h-\[100vh\] {
+  height: 100vh;
+}
+
+.h-full {
+  height: 100%;
 }
 
 .w-20 {
@@ -570,6 +590,10 @@ video {
 
 .cursor-pointer {
   cursor: pointer;
+}
+
+.place-items-center {
+  place-items: center;
 }
 
 .items-center {
@@ -600,9 +624,9 @@ video {
   background-color: rgb(255 125 59 / var(--tw-bg-opacity));
 }
 
-.py-5 {
-  padding-top: 1.25rem;
-  padding-bottom: 1.25rem;
+.bg-color-primary-dark {
+  --tw-bg-opacity: 1;
+  background-color: rgb(1 4 23 / var(--tw-bg-opacity));
 }
 
 .px-9 {
@@ -613,6 +637,21 @@ video {
 .py-3 {
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
+}
+
+.py-5 {
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+}
+
+.py-2 {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.py-20 {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
 }
 
 .text-3xl {
@@ -650,18 +689,9 @@ video {
   transition-timing-function: cubic-bezier(0.4, 0, 1, 1);
 }
 
-.hover\:text-color-blob:hover {
-  --tw-text-opacity: 1;
-  color: rgb(164 39 223 / var(--tw-text-opacity));
-}
-
 .hover\:text-color-secondary:hover {
   --tw-text-opacity: 1;
   color: rgb(255 125 59 / var(--tw-text-opacity));
-}
-
-.hover\:opacity-0:hover {
-  opacity: 0;
 }
 
 .hover\:opacity-80:hover {
