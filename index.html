@@ -31,7 +31,7 @@
                 </ul>
             </div>
             <!-- Mobile screen -->
-            <div id="hamburger" class="lg:hidden cursor-pointer">
+            <div id="hamburger" class="lg:hidden cursor-pointer z-50">
                 <i class="fa-solid fa-bars"></i>
             </div>
 
@@ -56,6 +56,11 @@
         const menu = document.querySelector('#menu');
         const hLink = document.querySelector('#hLink');
         const faSolid = document.querySelector('.fa-solid');
+
+        hamburger.addEventListener( "click",() => {
+            menu.classList.toggle('hidden');
+            faSolid.classList.toggle('fa-xmark')
+        })
     </script>
 
 </body>
